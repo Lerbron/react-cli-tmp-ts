@@ -2,11 +2,22 @@
   "name": "react-cli-tmp",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Lerbron/react-cli-tmp.git",
-  "author": "maqiling <maqiling@shanda.com>",
+  "repository": "https://github.com/Lerbron/react-cli-tmp-ts.git",
+  "author": "maqiling <maqlln@163.com>",
   "license": "MIT",
   "scripts": {
     "start": "react-cli server",
     "build": "react-cli build"
+  },
+  "devDependencies": {
+    "@types/antd": "^1.0.0",
+    "@types/js-cookie": "^2.2.6",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-loadable": "^5.5.4",
+    "@types/react-redux": "^7.1.12",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/redux": "^3.6.0",
+    "@types/webpack-env": "^1.16.0"
   }
 }
