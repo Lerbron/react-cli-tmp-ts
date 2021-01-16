@@ -1,0 +1,12 @@
+{
+  "name": "react-cli-tmp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Lerbron/react-cli-tmp.git",
+  "author": "maqiling <maqiling@shanda.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-cli server",
+    "build": "react-cli build"
+  }
+}
