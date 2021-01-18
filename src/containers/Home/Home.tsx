@@ -6,6 +6,8 @@ import {IState} from '@/reducers/index'
 import { IDispatch } from '@/typings/index'
 import checkNum from '@/utils/test.tsx'
 import imgUrl from '@/assets/icons/img.jpg'
+import intl from "react-intl-universal";
+
 
 interface IProps extends RouteComponentProps{
   num: number
@@ -37,6 +39,7 @@ const Home= (props: IProps) => {
     <div onClick={goAbout}>Home page</div>
     {num}
     <div onClick={add}>add</div>
+    <div>{intl.get('lang')}</div>
     <img src={imgUrl} />
   </div>
 }
